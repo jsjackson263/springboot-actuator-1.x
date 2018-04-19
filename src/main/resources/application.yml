@@ -1,0 +1,35 @@
+server.port: 9898 
+endpoints:
+  beans:
+    id: springbeans
+    sensitive: false
+    enabled: true
+    
+  health:
+    id: myHealthCheck
+    enabled: true
+    sensitive: false
+    
+  mappings:
+    enabled: true
+    sensitive: false
+    
+    
+  #info:
+  #  app:
+  #    name: Spring Sample Application
+  #    description: This is my first spring boot application
+  #    version: 1.0.0.RELEASE
+      
+      
+  info:
+    sensitive: false
+    
+ 
+  metrics:
+    enabled: true
+    
+    
+   
+      
+   
