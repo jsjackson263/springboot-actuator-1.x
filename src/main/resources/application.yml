@@ -1,4 +1,5 @@
 server.port: 9898 
+
 endpoints:
   beans:
     id: springbeans
@@ -6,7 +7,7 @@ endpoints:
     enabled: true
     
   health:
-    id: myHealthCheck
+   # id: myHealthCheck
     enabled: true
     sensitive: false
     
@@ -28,8 +29,16 @@ endpoints:
  
   metrics:
     enabled: true
+    sensitive: false
     
     
-   
+#http.mappers.jsonPrettyPrint=true
+
+#prettify the json output
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+
       
    
