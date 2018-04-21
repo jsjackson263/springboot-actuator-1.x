@@ -24,7 +24,13 @@ endpoints:
       
       
   info:
+    enabled: true
     sensitive: false
+    
+  env:
+    enabled: true
+    sensitive: false
+    keys-to-sanitize: java.vm.name, local.server.port
     
  
   metrics:
