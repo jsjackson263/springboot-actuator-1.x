@@ -15,6 +15,13 @@ endpoints:
     enabled: true
     sensitive: false
     
+  metrics:
+    enabled: true
+    sensitive: false
+    
+  info:
+    enabled: true
+    sensitive: false
     
   #info:
   #  app:
@@ -22,23 +29,9 @@ endpoints:
   #    description: This is my first spring boot application
   #    version: 1.0.0.RELEASE
       
-      
-  info:
-    enabled: true
-    sensitive: false
-    
-  env:
-    enabled: true
-    sensitive: false
-    keys-to-sanitize: java.vm.name, local.server.port
-    
- 
-  metrics:
-    enabled: true
-    sensitive: false
-    
+#http.mappers.jsonPrettyPrint=true
 
-#prettify the json output 
+#prettify the json output
 spring:
   jackson:
     serialization:
