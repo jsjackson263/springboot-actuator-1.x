@@ -37,14 +37,12 @@ endpoints:
     enabled: true
     sensitive: false
     
-    
-#http.mappers.jsonPrettyPrint=true
 
-#prettify the json output
+#prettify the json output 
 spring:
   jackson:
     serialization:
-      INDENT_OUTPUT: true
+      indent-output: true
 
       
    
