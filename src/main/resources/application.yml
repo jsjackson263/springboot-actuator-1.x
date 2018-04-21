@@ -23,6 +23,11 @@ endpoints:
     enabled: true
     sensitive: false
     
+  jolokia:
+    enabled: true
+    sensitive: false
+  
+    
   #info:
   #  app:
   #    name: Spring Sample Application
