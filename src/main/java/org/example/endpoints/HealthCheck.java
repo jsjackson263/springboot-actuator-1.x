@@ -21,7 +21,7 @@ public class HealthCheck implements HealthIndicator {
 
   public int check() {
     // logic to check health
-    return 1;
+    return 0;
   }
 
 
